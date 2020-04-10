@@ -16,8 +16,9 @@ if($('body').hasClass('home')) {
       autoPlay: true,
       active: 1,
       centering: true,
-      dragger: true,
-      starter: 1,
+ dragType: 'free', // for type of drag (swipe-free), default ('free') type string;
+        dragger: true, 
+        starter: 1,
       navShow: true,
       moveSpeed: 500,
       waitTime: 3000,
